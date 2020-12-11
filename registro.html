@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Registro_Proyecto</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/fondo.jpg" alt="Fondo">
+        <div id="titulo">
+            <p id="system">- - -#SYSTEM<b id="espacio"> / / </b><a id="movie">MOVIE#-  -  -</a></p>
+        </div>
+
+        <div class="introduccion">
+            <h1 id="titulo_intro">BIENVENIDO A NUESTRO SITIO WEB, PARA VER TUS SERIES QUE TE ENCANTAN!!!</h1>
+            <p id="desc_intro">Disfruta de series exclusivas. System-Movie ahora por USD 1 al mes. Cancela cuando quieras.</p>
+            <br>
+        </div>
+        <form id="registro" method="POST">
+            <h1>CREAR USUARIO</h1>
+            <input id="nombreCompleto" name="nombreCompleto" type="text" placeholder="Nombre Completo">
+            <input id="username" name="username" type="text" placeholder="Usuario">
+            <input id="passwords" name="passwords" type="password" placeholder="Contraseña">
+            <select id="tipoUsuario" name="tipoUsuario">
+            <option value="ADM">ADM</option>
+            <option value="CLIENTE">CLIENTE</option>
+            </select>
+            <input type="submit" value="REGISTRARSE">
+        </form>
+    </header>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+
+</html>

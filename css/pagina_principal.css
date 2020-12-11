@@ -1,0 +1,88 @@
+/*RESPONSIVE DESIGN LAPTOP*/
+
+body {
+    width: 1300px;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.superior {
+    margin-bottom: 50px;
+    margin-left: -100px;
+}
+
+.form-superior,
+a {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+#logo {
+    width: auto;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+#Series {
+    margin-left: 25px;
+}
+
+#seriesTV {
+    width: auto;
+    height: 650px;
+}
+
+#redes_sociales {
+    width: auto;
+    height: 50px;
+    margin-bottom: -450px;
+}
+
+#buscador {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    margin-left: 820px;
+    margin-top: -22px;
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -22px;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*RESPONSIVE DESIGN TABLET*/
+
+@media (min-width:767px) and (max-width:1023px) {}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*RESPONSIVE DESIGN MOVIL L*/
+
+@media (min-width:425px) and (max-width:766px) {}
